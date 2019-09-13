@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Animated, Dimensions, Image, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons';
-import { LinearGradient } from 'expo';
+import LinearGradient from 'react-native-linear-gradient';
 
 import { Button, Input, Block, Text } from '../components';
 import { theme, mocks } from '../constants';
@@ -100,7 +100,7 @@ class Explore extends Component {
   renderFooter() {
     return (
       <LinearGradient
-        locations={[0.5, 1]}
+        // locations={[0.5, 1]}
         style={styles.footer}
         colors={['rgba(255,255,255,0)', 'rgba(255,255,255,0.6)']}
       >
