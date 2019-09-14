@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo';
+import LinearGradient from 'react-native-linear-gradient';
 import { theme } from '../constants';
 
 class Button extends Component {
@@ -38,7 +38,7 @@ class Button extends Component {
           <LinearGradient
             start={start}
             end={end}
-            locations={locations}
+            // locations={locations}
             style={buttonStyles}
             colors={[startColor, endColor]}
           >

@@ -124,7 +124,6 @@ class Welcome extends Component {
   
   render() {
     const { navigation } = this.props;
-
     return (
       <Block>
         <Block center bottom flex={0.4}>

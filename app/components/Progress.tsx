@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { StyleSheet } from 'react-native'
-import { LinearGradient } from 'expo';
+import LinearGradient from 'react-native-linear-gradient';
 
 import Block from './Block';
 
