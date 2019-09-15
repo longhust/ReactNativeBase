@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2015",
+    "target": "esnext",
     "jsx": "react",
     "noEmit": true,
     "moduleResolution": "node",
+    "allowJs": true,
   },
   "exclude": [
-    "node_modules",
-  ],
+    "node_modules"
+  ]
 }

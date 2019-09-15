@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Dimensions, Image, FlatList, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons';
-
+import Icon from 'react-native-vector-icons/Entypo';
 import { Button, Divider, Input, Block, Text } from '../components';
 import { theme, mocks } from '../constants';
 
@@ -12,7 +11,7 @@ class Product extends Component {
     return {
       headerRight: (
         <Button onPress={() => {}}>
-          <Icon.Entypo name="dots-three-horizontal" color={theme.colors.gray} />
+          <Icon name="dots-three-horizontal" color={theme.colors.gray} />
         </Button>
       )
     }

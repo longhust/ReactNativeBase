@@ -5,6 +5,7 @@ import Block from './Block';
 import { theme } from '../constants';
 
 export default class Card extends Component {
+  props: any ;
   render() {
     const { color, style, children, ...props } = this.props;
     const cardStyles = [

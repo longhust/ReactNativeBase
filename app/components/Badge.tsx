@@ -5,6 +5,7 @@ import Block from './Block';
 import { theme } from '../constants';
 
 export default class Badge extends Component {
+  props: any;
   render() {
     const { children, style, size, color, ...props } = this.props;
 
@@ -30,6 +31,6 @@ const styles = StyleSheet.create({
   badge: {
     height: theme.sizes.base,
     width: theme.sizes.base,
-    borderRadius: theme.sizes.border,
+    borderRadius: theme.sizes.radius,
   }
 })

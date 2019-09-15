@@ -6,7 +6,6 @@ import Block from './Block';
 import Button from './Button';
 import { theme } from '../constants';
 import Icon from 'react-native-vector-icons/Ionicons';
-Icon.loadFont();
 
 export default class Input extends Component {
   state = {

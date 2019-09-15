@@ -6,7 +6,23 @@ import { theme, mocks } from '../constants';
 
 const { width } = Dimensions.get('window');
 
-class Browse extends Component {
+type Props = {
+  navigation: any;
+};
+type States = {
+  isLoading: boolean;
+  error: boolean;
+  data: any[] | null;
+  select: number;
+};
+class Browse extends React.PureComponent<Props, States> {
+  constructor(props: Props) {
+    super(props);
+    this.state = {
+      active: 'Products',
+      categories: [],
+    };
+  }
   state = {
     active: 'Products',
     categories: [],
